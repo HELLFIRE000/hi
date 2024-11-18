@@ -1,0 +1,51 @@
+<!--Here is mostly like of everything you need to customize based on how do you like, you can also modify the particles by modify the app.js.-->
+<!--Created by Mihaidev-Cloud 2023 :3-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name Here</title>
+    <meta property="og:title" content="$LIPWAVE" />
+    <meta property="og:site_name" content="666.LOL" />
+    <meta property="og:description" content="why you lookinghere?" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/console.js"></script>
+    <script async defer src="https://cdn.tailwindcss.com"></script>
+    <meta name="theme-color" content="var(--bgColor)">
+</head>
+<body>
+    <!--Page Content, Don't forget to modify!-->
+<div class="box p-24 flex flex-col justify-center items-center ">
+    <img id="userPhoto" class="w-32 rounded-xl border " src="images/profile-picture.webp" alt="Your Name's Photo">
+   <div class="boxt-text flex flex-col justify-center items-center mt-8">
+  <!--Title and paragraph-->
+    <h1 class="">Your Name</h1>
+    <p>Front-end Webdeveloper</p>
+ <!--Socials for icons please refer to icons.getbootstrap.com for icons.-->
+    <div class="socials space-x-2 text-2xl mt-4 ">
+    <button id="hush"><a id="https://discord.gg/vysa" href=""><i class="bi bi-discord"></i></a></button>
+    <button id="why click here?"><a id="https://github.com/HELLFIRE000" href=""><i class="bi bi-github"></i></a></button>
+    <button id="cornhub"><a id="https://cornhub.website" href=""><i class="bi bi-cornhub"></i></a></button>
+</div>   
+<!-- You can add many links you want but don't forget to change grid-cols number in exact number of links you have!-->
+ <div  class=" mt-6 grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3  ">
+    <button id="btnglass"><a class="my discord server" href="https://discord.gg/TZsZtg35b4" target="_blank"><i class="bi bi-link-45deg"></i> First Link</a></button> 
+    <button id="btnglass"><a class="my discord" href="<https://discord.com/users/1282194255036551271>" target="_blank"><i class="bi bi-link-45deg"></i> Web </a></button> 
+    <button id="btnglass"><a class="PROJECT.X" href="https://discord.gg/vysa" target="_blank"><i class="bi bi-envelope"></i> Email me</a></button> 
+
+    
+    
+
+     
+    </div>
+</div>
+
+</div>
+<div id="particles-js"></div>
+
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
